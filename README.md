@@ -7,4 +7,4 @@ Data streaming and DMA are adopted in this project. The IO for streaming data to
 
 The design block diagram can be found in the ./HW/block_diagram.pdf.
 
-#To be continued
+# To be continued
