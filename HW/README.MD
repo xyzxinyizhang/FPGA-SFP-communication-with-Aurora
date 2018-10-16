@@ -11,3 +11,5 @@
 5. GR_DIFF_REFCLK shoould come from the high speed transceiver's dedicated osscilator.
 
 6. ini_clk can come from a normal outside osscilator and driven by IBUFDS.
+
+7. Asychronous buffers (FIFO) are mandatory in TX/RX sides. FIFO depth can be calculated with standard FIFO depth formula. 
