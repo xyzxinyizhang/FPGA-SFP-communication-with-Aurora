@@ -10,4 +10,4 @@
 
 5. GR_DIFF_REFCLK shoould come from the high speed transceiver's dedicated osscilator.
 
-6. ini_clk can come from a normal outside osscilator and driven by # IBUFDS.
+6. ini_clk can come from a normal outside osscilator and driven by IBUFDS.
