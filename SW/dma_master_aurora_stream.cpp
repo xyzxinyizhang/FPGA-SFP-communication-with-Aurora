@@ -6,11 +6,9 @@
 void dma_master_aurora_stream(
 	hls::stream<AXI_VAL >  &in_stream,
 	hls::stream<AXI_DMA_IO >  &out_stream
-
 	)
 {
 
-//#pragma HLS DATAFLOW
 #pragma HLS INTERFACE ap_ctrl_none port=return
 #pragma HLS INTERFACE axis port=in_stream
 #pragma HLS INTERFACE axis port=out_stream
@@ -20,7 +18,6 @@ AXI_DMA_IO val_out;
 
 int data_length_master=500;
 int indicator_master=1;
-//AXI_DMA_IO val_out_;
 
 	if (indicator_master==1)
 	{
